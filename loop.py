@@ -40,3 +40,10 @@ friends=['Jamshid', 'Babur', 'Sukhrab ', 'Merdan ', 'Zamira ']
 for friend in friends:
     print(f"Salom {friend}")
 print(f"Kod {len(friends)} marta takrorlandi")
+
+
+n_people = int(input("Bugun necha kishi bn suhbat qildingiz?>>>"))
+ismlar = []
+for n in range(n_people):
+    ismlar.append(input(f"{n+1}-suhbat qilgan odamingiz kim edi: "))
+print(ismlar)
